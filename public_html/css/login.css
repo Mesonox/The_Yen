@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.error {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+      color: #FFFFFF;
+      font-family: Tahoma;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      text-align: center;
+      margin-top: 3px; 
+      margin-bottom: 6px;
+}
+a {
+    color: #adadad;
+    text-decoration: none;
+}
+p1 {
+  margin-top: 3px; 
+  margin-bottom: 6px; 
+  color: #FFFFFF;
+  font-family: Tahoma;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+  width: 500px;
+  height: 500px;
+}
+/* removes focus border in Chrome */
+*:focus {
+  outline: none;
+}
+#loginfield {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  width: 225px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align: center;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

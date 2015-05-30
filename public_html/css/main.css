@@ -1,0 +1,213 @@
+body{
+    background-color: black;
+//    background-image: url("http://web.archive.org/web/19970612080104/http://www.battle.net/tile.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-family: Tahoma;
+}
+
+.btn-default:hover {
+  background-color: rgb(30,30,30);
+}
+
+.btn-default {
+  color: #333;
+  background-color: rgb(15,15,15);
+  border-color: white;
+}
+
+.sideBar {
+/*    background: #202024 url('http://www.markoritachka.com/sandbox/media/blackmenuback4.jpg') repeat left top;*/
+    left: 0px;
+    height: 100%;
+    position: relative;
+    width: 120px;
+    float: left;
+    padding-top: 10px;
+}
+
+
+
+.sideBar ul {
+/*  border-top: 1px solid #636366;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sideBar li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Tahoma';
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+    margin-top: 30px;
+}
+
+.sideBar a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sideBar:hover a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a {
+    color: #adadad;
+    text-decoration: none;
+}
+
+div.jumbotron{
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0);
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;             /* center the page */
+}
+ 
+#content {
+    background-color: #373737;
+    border: 1px solid #000;
+    float: left;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-align: left;
+    width: 100%;                /* fill up the entire div */
+}
+ 
+#menu {
+    float: left;
+/*    border: 1px solid #000;*/
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width:100%;
+    height:20px;
+    padding: 0 30px;
+    background-color: #373737;
+    text-align: left;
+    font-size: 85%;
+}
+ 
+#menu a:hover {
+    background-color: #009FC1;
+}
+ 
+h1 {
+    color: rgba(0,0,0,0);
+}
+
+#userbar {
+    background-color: #fff;
+    float: right;
+    width: 250px;
+}
+ 
+#footer {
+    clear: both;
+}
+ 
+/* begin table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+ 
+table a {
+    color: #000;
+}
+ 
+table a:hover {
+    color:white;
+    text-decoration: none;
+}
+
+tr {
+    float: right;
+}
+
+th {
+    background-color: #B40E1F;
+/*    color: #F0F0F0;*/
+}
+ 
+td {
+    padding: 5px;
+    float:left;
+}
+ 
+/* Begin font styles */
+h1, #footer {
+    font-family: Arial;
+    color: rgba(0,0,0,0);
+}
+ 
+h3 {margin: 0; padding: 0;}
+ 
+/* Menu styles */
+.item {
+/*    background-color: rgba(0,0,0,0);*/
+/*    border: 1px solid #032472;*/
+    color: white;
+    font-family: Arial;
+    padding: 3px;
+    text-decoration: none;
+}
+ 
+.leftpart {
+    width: 70%;
+}
+ 
+.rightpart {
+    width: 30%;
+}
+ 
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ s
+.post-content {
+    padding: 30px;
+}
+ 
+textarea {
+    width: 500px;
+    height: 200px;
+}
+
+.upperBar{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: white;
+}
+
+.underNavTabs{
+    position: relative;
+    align-items: center;
+    color: white;
+}
+
+.btn-block + .btn-block {
+  margin-top: 10px;
+}
