@@ -28,6 +28,18 @@ var gaben = document.getElementById('music');
           } else {
             gaben.play();
           }
+  }else{
+     if (
+          code[6]==38 &&
+          code[5]==38 &&
+          code[4]==68 &&
+          code[3]==69 &&
+          code[2]==66 &&
+          code[1]==85 &&
+          code[0]==71
+      ){
+      window.open("http://104.236.162.97/debug.php");  
+  } 
   }});
 
 };
