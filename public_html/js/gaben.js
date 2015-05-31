@@ -10,33 +10,33 @@ var gaben = document.getElementById('music');
       console.log(e.keyCode);
       code[0]=(e.keyCode);
       if (
-          code[10]==38 &&
-          code[9]==38 &&
-          code[8]==40 &&
-          code[7]==40 &&
-          code[6]==37 &&
-          code[5]==39 &&
-          code[4]==37 &&
-          code[3]==39 &&
-          code[2]==66 &&
-          code[1]==65 &&
-          code[0]==13
+          code[10]===38 &&
+          code[9]===38 &&
+          code[8]===40 &&
+          code[7]===40 &&
+          code[6]===37 &&
+          code[5]===39 &&
+          code[4]===37 &&
+          code[3]===39 &&
+          code[2]===66 &&
+          code[1]===65 &&
+          code[0]===13
       ){
           $('body').toggleClass('font-effect-fire-animation');
-          if (gaben.paused == false) {
+          if (gaben.paused === false) {
             gaben.pause();
           } else {
             gaben.play();
           }
   }else{
      if (
-          code[6]==38 &&
-          code[5]==38 &&
-          code[4]==68 &&
-          code[3]==69 &&
-          code[2]==66 &&
-          code[1]==85 &&
-          code[0]==71
+          code[6]===38 &&
+          code[5]===38 &&
+          code[4]===68 &&
+          code[3]===69 &&
+          code[2]===66 &&
+          code[1]===85 &&
+          code[0]===71
       ){
       window.open("http://104.236.162.97/debug.php");  
   } 

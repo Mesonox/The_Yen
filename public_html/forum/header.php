@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rancho&effect=fire-animation">
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="../js/site.js"></script>
+<script src="../js/gaben.js"></script>
 <!--<script src="../js/debug.js"></script>-->
 <!DOCTYPE html>
 <!--

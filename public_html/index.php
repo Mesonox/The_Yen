@@ -20,42 +20,47 @@ if (login_check($mysqli) == true) {
         <title>Secure Login: Log In</title>
         <link href="css/login.css" rel="stylesheet" media="screen" rel="stylesheet" type="text/css" />
         <script type="text/JavaScript" src="js/sha512.js"></script> 
-        <script type="text/JavaScript" src="js/forms.js"></script> 
+        <script type="text/JavaScript" src="js/forms.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/JavaScript" src="js/logoanimation.js"></script>
     </head>
-    <body>
+    <body onload="animate()">
         <link media="screen" rel="stylesheet" type="text/css">
         <?php
         /* @var $_GET type */
         if (isset($_GET['error'])) {
             echo '<p class="error">Error Logging In!</p>';
         }
-        ?> 
-        <img src="img/yen_logo_optimized.png" alt="The Yen"/>
-        <form action="includes/process_login.php" 
-              method="post" 
-              name="login_form">
-            <p1>
-            <input type="text" 
-                   name="email" 
-                   id="loginfield" 
-                   placeholder="email" />
-            </p1>
-            <p1>
-            <input type="password" 
-                   name="password" 
-                   placeholder="Password"
-                   id="loginfield"/>
-            </p1>
-            <br /> <br />
-            <input type="image" 
-                   src="img/enter_button.png"
-                   onMouseOver="this.src='img/enter_button_hover.png'"
-                   onMouseOut="this.src='img/enter_button.png'"
-                   alt="Enter"
-                   value="Login" 
-                   onclick="formhash(this.form, this.form.password);" /> 
-        </form>
-        
+        ?>
+        <div class="logo">
+            <img id="logoImg" src="img/logoOpen.gif" alt="The Yen"/>
+        </div>
+        <div class="loginform" style="margin-top: 500px;">
+            <form action="includes/process_login.php" 
+                  method="post" 
+                  name="login_form">
+                <p1>
+                    <input type="text" 
+                           name="email" 
+                           id="loginfield" 
+                           placeholder="email" />
+                </p1>
+                <p1>
+                    <input type="password" 
+                           name="password" 
+                           placeholder="Password"
+                           id="loginfield"/>
+                </p1>
+                <br />
+                <input type="image" 
+                       src="img/enter_button.png"
+                       onMouseOver="this.src='img/enter_button_hover.png'"
+                       onMouseOut="this.src='img/enter_button.png'"
+                       alt="Enter"
+                       value="Login" 
+                       onclick="formhash(this.form, this.form.password);" /> 
+            </form>
+        </div>
 
 <?php
 /*        if (login_check($mysqli) == true) {
