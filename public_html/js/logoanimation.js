@@ -1,25 +1,14 @@
 function animate() {
-    var entryComplete = false;
     var menuOpeningSpeed = 600;
-     if(entryComplete===false){
-      $('.loginform').animate({
+    var entryComplete = false;
+    if (entryComplete === false) {
+        $('.loginform').stop().animate({
             marginTop: '0px'},
-            menuOpeningSpeed*1.5);
-        
+        menuOpeningSpeed * 1.5);
+
 //      $("#logoImg").attr('src', 'img/yen_logo_optimized.png');     
-         
-         
-         
-     }else{
-         
-         
-         
-         
-         
-         
-     }
-
-
-
-
-};
+    }
+}
+//$('.loginform').animate({
+//            marginTop: '0px'},
+//            menuOpeningSpeed*1.5);

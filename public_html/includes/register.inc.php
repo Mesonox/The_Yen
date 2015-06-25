@@ -83,7 +83,7 @@ if (isset($_POST['username'], $_POST['email'], $_POST['p'])) {
         $stmt->execute();
         $stmt->store_result();
  
-        if ($stmt->num_rows == 1) {
+        if ($stmt->num_rows === 1) {
             // Valid Code
             $stmt->close();
         

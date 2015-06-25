@@ -1,20 +1,16 @@
-<!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Rancho&effect=fire-animation">-->
-
 <?php
-include_once (__DIR__.'/includes/db_connect.php');
-include_once (__DIR__.'/includes/functions.php');
+include_once (__DIR__ . '/includes/db_connect.php');
+include_once (__DIR__ . '/includes/functions.php');
 sec_session_start();
- 
+
 if (login_check($mysqli) == true) {
     $logged = 'in';
-    header('Location: /forum/create_cat.php');
+    header('Location: /forum/index.php');
 } else {
     $logged = 'out';
 }
 ?>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-<!DOCTYPE html>
 <html>
     <head>
         <title>Secure Login: Log In</title>
@@ -24,6 +20,7 @@ if (login_check($mysqli) == true) {
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/JavaScript" src="js/logoanimation.js"></script>
     </head>
+
     <body onload="animate()">
         <link media="screen" rel="stylesheet" type="text/css">
         <?php
@@ -35,7 +32,7 @@ if (login_check($mysqli) == true) {
         <div class="logo">
             <img id="logoImg" src="img/logoOpen.gif" alt="The Yen"/>
         </div>
-        <div class="loginform" style="margin-top: 500px;">
+        <div class="loginform" style="margin-top: 750px;">
             <form action="includes/process_login.php" 
                   method="post" 
                   name="login_form">
@@ -63,6 +60,7 @@ if (login_check($mysqli) == true) {
         </div>
 
 <?php
+
 /*        if (login_check($mysqli) == true) {
                         echo '<p>Currently logged ' . $logged . ' as ' . htmlentities($_SESSION['username']) . '.</p>';
  

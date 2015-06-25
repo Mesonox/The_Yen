@@ -9,6 +9,15 @@ body{
     font-family: Tahoma;
 }
 
+form {
+    text-align: center;
+
+}
+
+input, select, textarea{
+    color: black;
+}
+
 .btn-default:hover {
   background-color: rgb(30,30,30);
 }
@@ -115,16 +124,18 @@ h1 {
  
 #footer {
     clear: both;
+    color: white;
+    text-align: center;
 }
  
 /* begin table styles */
 table {
+    
     border-collapse: collapse;
-    width: 100%;
+    width: 75%;
 }
  
 table a {
-    color: #000;
 }
  
 table a:hover {
@@ -133,12 +144,11 @@ table a:hover {
 }
 
 tr {
-    float: right;
+    
 }
 
 th {
-    background-color: #B40E1F;
-/*    color: #F0F0F0;*/
+    color: #F0F0F0;
 }
  
 td {
@@ -149,7 +159,7 @@ td {
 /* Begin font styles */
 h1, #footer {
     font-family: Arial;
-    color: rgba(0,0,0,0);
+    color: white;
 }
  
 h3 {margin: 0; padding: 0;}

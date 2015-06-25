@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-</div><!-- content -->
-</div><!-- wrapper -->
-<div id="footer">Electric Boogaloo</div>
+<div id="footer">
+    <hr align="center" width="85%">
+    Copyright (c) 2015 Mesonox Softworks and Adrian Smith. All images, assets and code are the property of of their respective owners.
+    <a href="https://github.com/Mesonox">Check out the code, and help out, on Github.</a>
+</div>
 </body>
 </html>
