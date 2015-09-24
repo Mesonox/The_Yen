@@ -9,7 +9,7 @@ include_once (__DIR__.'/includes/functions.php');
         <title>Secure Login: Registration Form</title>
         <script type="text/JavaScript" src="js/sha512.js"></script> 
         <script type="text/JavaScript" src="js/forms.js"></script>
-        <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="/css/login.css" />
     </head>
     <body>
         <!-- Registration form to be output if the POST variables are not
@@ -20,6 +20,7 @@ include_once (__DIR__.'/includes/functions.php');
             echo $error_msg;
         }
         ?>
+       
         <ul>
             <li>Usernames may contain only digits, upper and lower case letters and underscores</li>
             <li>Emails must have a valid email format</li>
@@ -33,6 +34,7 @@ include_once (__DIR__.'/includes/functions.php');
             </li>
             <li>Your password and confirmation must match exactly</li>
         </ul>
+        <div class="loginform">
         <form action="<?php echo esc_url($_SERVER['PHP_SELF']); ?>" 
                 method="post" 
                 name="registration_form"
@@ -61,8 +63,10 @@ include_once (__DIR__.'/includes/functions.php');
                                    this.form.email,
                                    this.form.password,
                                    this.form.confirmpwd,
-                                   this.form.invtcode);" /> 
+                                   this.form.invtcode);" /><br> 
         </form>
+        </div>
+        <br>
         <p>Return to the <a href="index.php">login page</a>.</p>
     </body>
 </html>
